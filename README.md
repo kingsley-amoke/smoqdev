@@ -20,11 +20,11 @@ Our website serves as a single source for:
 
 Currently, the following apps have their privacy policies hosted on our site:
 
-| App Name                       | Description                              | Privacy Policy Link                                                   |
-| ------------------------------ | ---------------------------------------- | --------------------------------------------------------------------- |
-| Imgify                         | Image converter, compressor, and resizer | [View Privacy Policy](https://yourwebsite.com/imgify/privacy)         |
-| Expense Tracker – Scan Receipt | Track expenses and scan receipts         | [View Privacy Policy](https://yourwebsite.com/expensetracker/privacy) |
-|  |
+| App Name                       | Description                              | Privacy Policy Link                                               |
+| ------------------------------ | ---------------------------------------- | ----------------------------------------------------------------- |
+| Imgify                         | Image converter, compressor, and resizer | [View Privacy Policy](https://smoqdev.vercel.app/imgify/privacy)  |
+| Expense Tracker – Scan Receipt | Track expenses and scan receipts         | [View Privacy Policy](https://smoqdev.vercel.app/expense/privacy) |
+|                                |
 
 > You can add new apps by creating a corresponding privacy policy page and updating this table.
 
