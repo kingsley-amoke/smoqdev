@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { apps } from "@/app/data/app";
 import ImgifyPolicy from "@/app/policies/imgify";
 import ExpenseTrackerPrivacyPolicy from "@/app/policies/expense-tracker";
+import PaycheckCalculatorPrivacyPolicy from "@/app/policies/expense-tracker";
 
 export async function generateMetadata({
   params,
@@ -47,6 +48,16 @@ export default async function PrivacyPage({
   if (appKey == "imgify") {
     return <ImgifyPolicy appName={app.name} lastUpdated={lastUpdated} />;
   }
+
+  if (appKey == "paycheck") {
+    return (
+      <PaycheckCalculatorPrivacyPolicy
+        appName={app.name}
+        lastUpdated={lastUpdated}
+      />
+    );
+  }
+
   if (appKey == "expense") {
     return (
       <ExpenseTrackerPrivacyPolicy

@@ -20,4 +20,15 @@ export const apps = {
     hasAccounts: false,
     dataRetentionDays: 90,
   },
+
+  paycheck: {
+    name: "Paycheck Calculator",
+    email: "privacy@paycheck.app",
+    collectsPII: false,
+    storesImages: false,
+    usesAds: false,
+    usesAnalytics: true,
+    hasAccounts: false,
+    dataRetentionDays: 90,
+  },
 };

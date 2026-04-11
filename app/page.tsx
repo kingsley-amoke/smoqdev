@@ -38,6 +38,16 @@ export default function Home() {
               Personal finance and expense tracking app privacy policy.
             </p>
           </a>
+
+          <a
+            href="/paycheck/privacy"
+            className="p-6 bg-white rounded-2xl shadow hover:shadow-md transition"
+          >
+            <h3 className="text-lg font-semibold mb-2">Paycheck Calculator</h3>
+            <p className="text-sm text-gray-600">
+              Personal Income and Paycheck Tax Calculator app privacy policy.
+            </p>
+          </a>
         </div>
       </section>
 
