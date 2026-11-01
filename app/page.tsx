@@ -48,6 +48,13 @@ export default function Home() {
               Personal Income and Paycheck Tax Calculator app privacy policy.
             </p>
           </a>
+          <a
+            href="/newluck/privacy"
+            className="p-6 bg-white rounded-2xl shadow hover:shadow-md transition"
+          >
+            <h3 className="text-lg font-semibold mb-2">Newluck</h3>
+            <p className="text-sm text-gray-600">Newluck app privacy policy.</p>
+          </a>
         </div>
       </section>
 

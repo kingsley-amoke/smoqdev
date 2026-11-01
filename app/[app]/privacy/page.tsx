@@ -3,6 +3,7 @@ import { apps } from "@/app/data/app";
 import ImgifyPolicy from "@/app/policies/imgify";
 import ExpenseTrackerPrivacyPolicy from "@/app/policies/expense-tracker";
 import PaycheckCalculatorPrivacyPolicy from "@/app/policies/expense-tracker";
+import NewluckPrivacy from "@/app/policies/newluck";
 
 export async function generateMetadata({
   params,
@@ -65,6 +66,9 @@ export default async function PrivacyPage({
         lastUpdated={lastUpdated}
       />
     );
+  }
+  if (appKey == "newluck") {
+    return <NewluckPrivacy appName={app.name} lastUpdated={lastUpdated} />;
   }
 
   return notFound();

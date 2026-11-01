@@ -31,4 +31,14 @@ export const apps = {
     hasAccounts: false,
     dataRetentionDays: 90,
   },
+  newluck: {
+    name: "Newluck",
+    email: "info@newluck.com.ng",
+    collectsPII: false,
+    storesImages: false,
+    usesAds: false,
+    usesAnalytics: true,
+    hasAccounts: false,
+    dataRetentionDays: 90,
+  },
 };
